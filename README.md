@@ -1,4 +1,4 @@
-# 🚀 CandeiasHub - Conectando o Comércio Local
+# CandeiasHub - Conectando o Comércio Local
 
 O **CandeiasHub** é uma plataforma digital moderna desenvolvida para fortalecer a economia local da cidade de Candeias - BA. O objetivo do projeto é conectar moradores da região a pequenos empreendedores, centralizando a divulgação de serviços, promoções, eventos, produtos e estabelecimentos locais de forma rápida, visual e 100% organizada.
 
@@ -6,7 +6,7 @@ Este projeto simula um sistema real de mercado, contando com um frontend estrutu
 
 ---
 
-## 💡 Identidade da Startup
+## Identidade da Startup
 
 * **Nome da Startup:** CandeiasHub
 * **Slogan:** *"O coração do comércio local bate aqui."*
@@ -14,7 +14,7 @@ Este projeto simula um sistema real de mercado, contando com um frontend estrutu
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 ### Frontend:
 * **HTML5:** Estrutura semântica das páginas.
@@ -30,7 +30,7 @@ Este projeto simula um sistema real de mercado, contando com um frontend estrutu
 
 ---
 
-## 📁 Estrutura de Pastas do Projeto
+## 📁Estrutura de Pastas do Projeto
 
 ```text
 candeias-hub/
@@ -48,7 +48,7 @@ candeias-hub/
     └── contato.html       # Página de Contato (Informações locais fictícias)
 
 
-### 👩‍💻 Componentes da Equipe
+### 👩‍💻 Componentes da Equipe Nexus
 Júlia das Neves
 Alexandre Brito
 Freson Rafael
