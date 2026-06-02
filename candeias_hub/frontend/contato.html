@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CandeiasHub - Contato</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Candeias<span>Hub</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-top: 40px;">
+            
+            <div class="form-section">
+                <h2>Fale Conosco</h2>
+                <br>
+                <form onsubmit="alert('Mensagem enviada com sucesso!'); return false;">
+                    <div class="form-group">
+                        <label>Nome:</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="form-group">
+                        <label>E-mail:</label>
+                        <input type="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Mensagem:</label>
+                        <textarea rows="4" required></textarea>
+                    </div>
+                    <button type="submit">Enviar Mensagem</button>
+                </form>
+            </div>
+
+            <div style="background: white; padding: 25px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); height: fit-content;">
+                <h2>Canais de Atendimento</h2>
+                <br>
+                <p><strong>Telefone:</strong> (71) 3601-XXXX</p>
+                <p style="margin-top: 10px;"><strong>E-mail:</strong> contato@candeiashub.com.br</p>
+                <p style="margin-top: 10px;"><strong>Endereço:</strong> Av. Antônio Paterson, Centro, Candeias - BA, CEP: 43805-000</p>
+                <p style="margin-top: 15px; font-size: 0.9rem; color: #666;">*Atendimento de Segunda a Sexta, das 08h às 18h.</p>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 CandeiasHub. Desenvolvido pela Equipe Alfa.</p>
+    </footer>
+</body>
+</html>

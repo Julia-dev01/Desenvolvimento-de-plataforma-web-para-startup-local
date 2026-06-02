@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CandeiasHub - Home</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Candeias<span>Hub</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <header class="banner">
+        <h1>CandeiasHub</h1>
+        <p>O coração do comércio local bate aqui.</p>
+    </header>
+
+    <main class="container">
+        <section class="form-section">
+            <h2>Anuncie seu Negócio, Evento ou Serviço</h2>
+            <br>
+            <form id="cadastroForm">
+                <div class="form-group">
+                    <label for="nome">Nome do Estabelecimento / Evento:</label>
+                    <input type="text" id="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="tipo">Categoria:</label>
+                    <select id="tipo" required>
+                        <option value="Negócio Local">Negócio Local</option>
+                        <option value="Promoção">Promoção</option>
+                        <option value="Evento">Evento</option>
+                        <option value="Serviço">Serviço</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="descricao">Descrição / Detalhes:</label>
+                    <textarea id="descricao" rows="3" required></textarea>
+                </div>
+                <button type="submit">Cadastrar e Divulgar</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Explorar Candeias</h2>
+            <div class="grid-negocios" id="containerCards">
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 CandeiasHub. Desenvolvido por Nexus (Alunos:Julia Neves, Alexandre Brito, Fredson Rafael, Murilo de Assis, Luma Cristina).</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
